@@ -1,0 +1,12 @@
+Dim file As System.IO.StreamWriter
+
+        file = My.Computer.FileSystem.OpenTextFileWriter(TextBox1.Text.ToString, False)
+
+        file.WriteLine("Player1")
+        file.WriteLine("Player2")
+        file.WriteLine("Player3")
+        file.WriteLine("Player4")
+        file.WriteLine("Player5")
+        file.WriteLine("Player6")
+
+        file.Close()
